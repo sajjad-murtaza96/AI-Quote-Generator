@@ -1,3 +1,3 @@
 # AI Quote Generator
 
-![quote-generator](image.png)
+![alt text](quote-generator.png)
