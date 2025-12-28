@@ -1,5 +1,5 @@
 import { Quote } from "./component/quote";
 
-export const GenerateQuotePage = async () => {
+export default async function GenerateQuotePage() {
   return <Quote />;
-};
+}

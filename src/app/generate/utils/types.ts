@@ -6,21 +6,17 @@ export interface QuoteResponse {
   choices: Choice[];
   usage: Usage;
   service_tier: string;
-  system_fingerprint: any;
 }
 
 export interface Choice {
   index: number;
   message: Message;
-  logprobs: any;
   finish_reason: string;
 }
 
 export interface Message {
   role: string;
   content: string;
-  refusal: any;
-  annotations: any[];
 }
 
 export interface Usage {

@@ -1,12 +1,3 @@
-import { GenerateQuotePage } from "./generate/page";
-import RootLayout from "./layout";
+import GenerateQuotePage from "./generate/page";
 
-const HomePage = () => {
-  return (
-    <RootLayout>
-      <GenerateQuotePage />
-    </RootLayout>
-  );
-};
-
-export default HomePage;
+export default GenerateQuotePage;
